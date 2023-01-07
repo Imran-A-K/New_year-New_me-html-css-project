@@ -11,13 +11,13 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  position: relative;
+  
   width: 1600px;
   height: 808px;
 }
 
 .float-right {
-  position: relative;
+ 
   float: right;
   align-items: right;
   padding-top: 200px;
@@ -40,7 +40,7 @@ header {
 .float-right-description {
   font-weight: 400;
   font-size: 16px;
-  position: relative;
+  
   margin-left: 100px;
   margin-bottom: 24px;
   text-align: right;
@@ -174,7 +174,7 @@ li::before {
 
 
 .my-plans-content-position-fixing {
-  position: relative;
+  
   padding-left: 20px;
 }
 
@@ -196,7 +196,7 @@ li::before {
 
 
 .positive-mindset-content-elements {
-  position: relative;
+  
   padding-top: 59px;
   padding-left: 64px;
 
@@ -242,7 +242,7 @@ footer {
 }
 
 .future-text {
-  position: relative;
+  
 }
 
 .future-text h1 {
@@ -267,7 +267,7 @@ footer {
 }
 
 .subscribe-container {
-  position: relative;
+  
   width: 325px;
   height: 204px;
   margin-left: 330px;
