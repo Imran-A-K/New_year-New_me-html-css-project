@@ -136,9 +136,22 @@ li::before {
   margin-bottom: 130px;
 }
 
-.my-plan-content img {
+#web-image{
+  
+  padding-left: 80px;
+}
+#javascript-image{
+
+  padding-left: 55px;
+}
+#smoke-image{
 
   padding-left: 50px;
+}
+
+#ecommerce-image{
+
+  padding-left: 55px;
 }
 
 .my-plan-content h3 {
@@ -300,7 +313,7 @@ footer {
 /* ------- designing scrollbar ------ */
 
 ::-webkit-scrollbar {
-  width: 1em;
+  width: 0.85em;
   height: 10px;
  
 }
