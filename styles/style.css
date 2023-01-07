@@ -7,7 +7,7 @@
 
 /* header styles */
 header {
-  background-image: url("../images/banner/banner3.png");
+  background-image: url("../images/banner/banner2.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -31,7 +31,7 @@ header {
   text-align: right;
   width: 525px;
   height: 228px;
-  color: #FFFFFF;
+  color: #151414;
   padding-right: 100px;
   margin-top: 10px;
   margin-bottom: 24px;
@@ -45,7 +45,7 @@ header {
   margin-bottom: 24px;
   text-align: right;
   width: 425px;
-   color: #FFFFFF;
+   color: #444343;
 }
 
 .float-right-button {
@@ -54,7 +54,8 @@ header {
   font-weight: 600;
   font-size: 20px;
   text-align: center;
-  color: #005FAC;
+  background: #F15B22;
+  
   border-radius: 5px;
   border: none;
   float: right;
@@ -64,8 +65,7 @@ header {
 
 .float-right-button:hover {
   color: #FFFFFF;
-  background-color: peru;
-
+  background-color: #005FAC;
 }
 
 /* -----main-section-css---- */
@@ -170,6 +170,8 @@ li::before {
   text-align: center;
   color: #737272;
 }
+
+
 
 .my-plans-content-position-fixing {
   position: relative;
