@@ -1,0 +1,322 @@
+* {
+  margin: 0;
+  padding: 0;
+   
+  font-family: 'Roboto', sans-serif;
+}
+
+/* header styles */
+header {
+  background-image: url("../images/banner/banner3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  width: 1600px;
+  height: 808px;
+}
+
+.float-right {
+  position: relative;
+  float: right;
+  align-items: right;
+  padding-top: 200px;
+  padding-right: 100px;
+}
+
+.float-right-title {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76px;
+  text-align: right;
+  width: 525px;
+  height: 228px;
+  color: #FFFFFF;
+  padding-right: 100px;
+  margin-top: 10px;
+  margin-bottom: 24px;
+}
+
+.float-right-description {
+  font-weight: 400;
+  font-size: 16px;
+  position: relative;
+  margin-left: 100px;
+  margin-bottom: 24px;
+  text-align: right;
+  width: 425px;
+   color: #FFFFFF;
+}
+
+.float-right-button {
+  width: 160px;
+  height: 64px;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #005FAC;
+  border-radius: 5px;
+  border: none;
+  float: right;
+  margin-right: 100px;
+  cursor: pointer;
+}
+
+.float-right-button:hover {
+  color: #FFFFFF;
+  background-color: peru;
+
+}
+
+/* -----main-section-css---- */
+
+/* -----failiures-content----- */
+
+.failures-content {
+  margin-top: 131px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 131px;
+}
+
+.failures-writing {
+  padding-top: 240px;
+  padding-left: 80px;
+}
+
+.failures-writing h1 {
+  font-weight: 700;
+  font-size: 40px;
+  width: 288px;
+  height: 94px;
+  color: #151414;
+  margin-bottom: 24px;
+
+}
+
+.failures-writing p {
+  width: 416px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+  margin-bottom: 16px;
+}
+
+/* --- styling the list to match the tik sign ---- */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding-left: 5px;
+}
+
+li::before {
+  content: "✓";
+  padding-right: 8px;
+  color: #16D887;
+}
+
+/* ----- styling my plans section ---- */
+
+.my-plans-section h1 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.my-plan-contents-container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 130px;
+}
+
+.my-plan-content img {
+
+  padding-left: 50px;
+}
+
+.my-plan-content h3 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #151414;
+
+}
+
+.my-plan-content p {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  color: #737272;
+}
+
+.my-plans-content-position-fixing {
+  position: relative;
+  padding-left: 20px;
+}
+
+/* ------ positive mindset section --------- */
+.positive-mindset-section {
+  display: flex;
+  justify-content: center;
+}
+
+.positive-mindset-content {
+  width: 1140px;
+  height: 300px;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url('../images/watch.png');
+  margin-bottom: 130px;
+  display: flex;
+
+}
+
+
+.positive-mindset-content-elements {
+  position: relative;
+  padding-top: 59px;
+  padding-left: 64px;
+
+}
+
+.positive-mindset-title {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 40px;
+  width: 459px;
+  margin-bottom: 24px;
+}
+
+.positive-mindset-button {
+  width: 160px;
+  height: 64px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #005FAC;
+  text-align: center;
+  background: #FFFFFF;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.positive-mindset-button:hover {
+  color: #FFFFFF;
+  background-color: peru;
+}
+
+
+/* ------- styling footer ------ */
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  width: 1600px;
+  height: 577px;
+  background: #151414;
+
+}
+
+.future-text {
+  position: relative;
+}
+
+.future-text h1 {
+  color: #F8F8F8;
+  font-weight: 700;
+  font-size: 45px;
+  margin-top: 130px;
+  margin-bottom: 16px;
+}
+
+.future-text p {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  width: 485px;
+  margin-bottom: 25px;
+
+}
+
+.future-text img {
+  margin-right: 17px;
+}
+
+.subscribe-container {
+  position: relative;
+  width: 325px;
+  height: 204px;
+  margin-left: 330px;
+  margin-top: 130px;
+}
+
+.subscribe-container h3 {
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 31px;
+}
+
+.subscribe-container input {
+  width: 325px;
+  height: 64px;
+  left: 1045px;
+  top: 2842px;
+
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  background-color: #151414;
+  margin-bottom: 16px;
+}
+
+.subscribe-button {
+  font-weight: 600;
+  font-size: 20px;
+  color: #FFFFFF;
+  background: #005FAC;
+  border-radius: 8px;
+  width: 170.11px;
+  align-items: center;
+  height: 64px;
+  cursor: pointer;
+}
+
+.subscribe-button:hover {
+  color: black;
+  background-color: #FFFFFF;
+}
+
+/* ------- designing scrollbar ------ */
+
+::-webkit-scrollbar {
+  width: 1em;
+  height: 10px;
+ 
+}
+
+::-webkit-scrollbar-track {
+  background: none;
+  border-radius: 100vw;
+  margin-block: 0.1em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(179, 209, 242);
+  border: none;
+  border-radius: 80vw;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(231, 170, 225);
+}
